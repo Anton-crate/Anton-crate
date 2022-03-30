@@ -15,6 +15,7 @@ def re_kruto():
 	if message == None or message == "" or message == " ":
 		message = "Сообщение не введено!"
 	text = text + message
+	print(text)
 	return text
 
 
