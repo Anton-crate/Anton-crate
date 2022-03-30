@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route("https://anton-crate.github.io/Anton-crate/", methods=["GET"])
+@app.route("/anton-crate.github.io/Anton-crate/", methods=["GET"])
 def re_kruto():
 	name = request.args.get("name")
 	message = request.args.get("message")
